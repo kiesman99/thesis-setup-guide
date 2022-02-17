@@ -6,15 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Thesis Setup Guide',
+  tagline: 'Getting Bachlelor Thesis to work!',
+  url: 'https://kiesman99.github.io',
+  baseUrl: '/thesis-setup-guide/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'kiesman99', // Usually your GitHub org/user name.
+  projectName: 'thesis-setup-guide', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
@@ -55,9 +56,8 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/kiesman99/thesis-setup-guide',
             label: 'GitHub',
             position: 'right',
           },
