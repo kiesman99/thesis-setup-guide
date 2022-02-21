@@ -39,4 +39,24 @@ If nothing helps you should get some rest and hope it magically works after seve
 
 ### Using the App
 
+Choose the address the server is running on:
+
+![](/img/tutorial/select_address.png)
+
+Choose the metrics you want to collect:
+
+![](/img/tutorial/select_metrics.png)
+
+Choose frequency (hZ) with wich the data should be collected:
+
+:::warning
+The higher the refresh rate the more ressource intensive the collecting is
+:::
+
+![](/img/tutorial/select_hz.png)
+
+If you see this view you're ready to inspect the data in grafana:
+
+![](/img/tutorial/collecting_data.png)
+
 #### Inspect the metrics
